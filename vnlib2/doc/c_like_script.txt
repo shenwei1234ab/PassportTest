@@ -1,0 +1,402 @@
+/* 
+ *	expression
+*/
+
+constant
+	: 'nil'
+	| 'true'
+	| 'false'
+	| @integer
+	| @long_integer
+	| @float
+	| @double
+	| @string_literal
+	;
+
+primary_expression
+	: @identifier
+	| 'self'
+	| 'super'
+	| constant
+	| '(' expression ')'
+	| 'cast' '<' type_name '>' '(' expression ')'
+	;
+
+postfix_expression
+	: primary_expression
+	| postfix_expression '[' expression ']'
+	| postfix_expression '(' ')'
+	| postfix_expression '(' argument_list ')'
+	| postfix_expression '.' @identifier
+	| postfix_expression '::' @identifier
+	| postfix_expression '::' 'new'
+	| postfix_expression '++'
+	| postfix_expression '--'
+	;
+
+argument_list
+	: expression
+	| argument_list ',' expression
+	;
+
+unary_expression
+	: postfix_expression
+	| '++' unary_expression
+	| '--' unary_expression
+	| '+' unary_expression
+	| '-' unary_expression
+	| '!' unary_expression
+	;
+
+multiplicative_expression
+	: unary_expression
+	| multiplicative_expression '*' unary_expression
+	| multiplicative_expression '/' unary_expression
+	| multiplicative_expression '%' unary_expression
+	;
+
+additive_expression
+	: multiplicative_expression
+	| additive_expression '+' multiplicative_expression
+	| additive_expression '-' multiplicative_expression
+	;
+
+relational_expression
+	: additive_expression
+	| relational_expression '<' additive_expression
+	| relational_expression '>' additive_expression
+	| relational_expression '<=' additive_expression
+	| relational_expression '>=' additive_expression
+	;
+
+equality_expression
+	: relational_expression
+	| equality_expression '==' relational_expression
+	| equality_expression '!=' relational_expression
+	;
+
+logical_and_expression
+	: equality_expression
+	| logical_and_expression '&' equality_expression
+	;
+
+logical_or_expression
+	: logical_and_expression
+	| logical_or_expression '|' logical_and_expression
+	;
+
+conditional_expression
+	: logical_or_expression
+	| logical_or_expression '?' expression ':' conditional_expression
+	;
+
+expression
+	: conditional_expression
+	| unary_expression assignment_operator expression
+	;
+
+assignment_operator
+	: '='
+	| '*='
+	| '/='
+	| '%='
+	| '+='
+	| '-='
+	;
+
+
+
+/*
+ *	type_name
+*/
+
+base_type
+	: 'bool'
+	| 'int'
+	| 'uint'
+	| 'long'
+	| 'ulong'
+	| 'float'
+	| 'double'
+	| 'string'
+	;
+
+container_type
+	: 'array' '<' type_name ',' @conditional_expression '>'
+	| 'vector' '<' type_name '>'
+	| 'list' '<' type_name '>'
+	| 'map' '<' type_name  ',' type_name '>'
+	;
+
+function_type
+	: 'function' '<' '(' ')' '>'
+	| 'function' '<' '(' parameter_list ')' '>'
+	| 'function' '<' '(' ')' ':' return_type '>'
+	| 'function' '<' '(' parameter_list ')' ':' return_type '>'
+	;
+
+user_type
+	: @identifier
+	| user_type '::' @identifier
+	;
+
+user_type_list
+	: user_type
+	| user_type_list ',' user_type
+	;
+
+type_name
+	: base_type
+	| container_type
+	| container_type '::' @identifier
+	| function_type
+	| user_type
+	| 'ptr' '<' user_type '>'
+	;
+
+type_name_list
+	: type_name
+	| type_name_list ',' type_name
+	;
+
+/*
+ *	enum_specifier
+*/ 
+
+enum_specifier
+	: 'enum' '{' enumerator_list '}'
+	| 'enum' '{' enumerator_list ',' '}'
+	| 'enum' @identifier '{' enumerator_list '}'
+	| 'enum' @identifier '{' enumerator_list ',' '}'
+	;
+
+enumerator_list
+	: enumerator
+	| enumerator_list ',' enumerator
+	;
+
+enumerator
+	: @identifier
+	| @identifier '=' conditional_expression
+	;
+
+/*
+ *	struct_specifier
+*/
+
+struct_specifier
+	: 'struct' @identifier '{' '}'
+	| 'struct' @identifier '{' struct_member_list '}'
+	| 'struct' @identifier ':' user_type '{' '}'
+	| 'struct' @identifier ':' user_type '{' struct_member_list '}'
+	; 
+
+struct_member
+	: ';'
+	| type_specifier
+	| variable_statement
+	| 'static' variable_statement
+	| function_header compound_statement
+	| 'static' function_header compound_statement
+	;
+
+struct_member_list
+	: struct_member
+	| struct_member_list struct_member
+	;
+
+/*
+ *	interface_specifier
+*/
+
+interface_specifier
+	: 'interface' @identifier '{' '}'
+	| 'interface' @identifier '{' interface_member_list '}'
+	;
+
+interface_member
+	: ';'
+	| type_specifier 
+	| function_header
+	;
+
+interface_member_list
+	: interface_member
+	| interface_member_list interface_member
+	;
+
+/*
+ *	class_specifier
+*/
+
+class_specifier
+	: 'class' @identifier '{' '}'
+	| 'class' @identifier '{' class_member_list '}'
+	| 'class' @identifier ':' '<' '>' '{' '}'
+	| 'class' @identifier ':' '<' user_type_list '>' '{' class_member_list '}'
+	| 'class' @identifier ':' user_type '{' '}'
+	| 'class' @identifier ':' user_type '{' class_member_list '}'
+	| 'class' @identifier ':' user_type '<' '>' '{' '}'
+	| 'class' @identifier ':' user_type '<' user_type_list '>' '{' class_member_list '}'
+	; 
+
+class_member
+	: struct_member
+	| 'new' '(' ')' compound_statement
+	| 'new' '(' parameter_list ')' compound_statement
+	| 'delete' '(' ')' compound_statement
+	;
+
+class_member_list
+	: class_member
+	| class_member_list class_member
+	;
+
+/*
+ *	type_specifier
+*/
+
+type_specifier
+	: enum_specifier
+	| struct_specifier
+	| interface_specifier
+	| class_specifier
+	;
+
+/*
+ * initializer
+*/
+
+initializer
+	: expression
+	| '{' initializer_list '}'
+	| '{' initializer_list ',' '}'
+	;
+
+initializer_list
+	: initializer
+	| initializer_list ',' initializer
+	;
+
+/*
+ *	function_header
+*/
+
+function_header
+	: 'function' @identifier '(' ')'
+	| 'function' @identifier '(' ')' ':' return_type
+	| 'function' @identifier '(' parameter_list ')'
+	| 'function' @identifier '(' parameter_list ')' ':' return_type
+	;
+
+return_type
+	: type_name
+	| 'ref' type_name
+	;
+
+parameter
+	: type_name
+	| 'ref' type_name
+	| @identifier ':' type_name
+	| 'ref' @identifier ':' type_name
+	;
+
+parameter_list
+	: parameter
+	| parameter_list ',' parameter
+	;
+
+/* 
+ *	statement
+*/
+
+variable_statement
+	: 'var' variable_list
+	;
+
+variable
+	: @identifier ':' type_name
+	| @identifier '=' initializer
+	| @identifier ':' type_name '=' initializer
+	;
+
+variable_list
+	: variable
+	| variable_list ',' variable
+	;
+
+expression_statement
+	: ';'
+	| expression ';'
+	;
+
+selection_statement
+	: 'if' '(' expression ')' statement
+	| 'if' '(' expression ')' statement 'else' statement
+	;
+
+iteration_statement
+	: 'while' '(' expression ')' statement
+	| 'do' statement 'while' '(' expression ')' ';'
+	| 'for' '(' expression_statement expression_statement ')' statement
+	| 'for' '(' expression_statement expression_statement expression ')' statement
+	| 'for' '(' variable_statement expression_statement ')' statement
+	| 'for' '(' variable_statement expression_statement expression ')' statement
+	;
+
+jump_statement
+	: 'continue' ';'
+	| 'break' ';'
+	| 'return' expression_statement
+	;
+
+compound_statement
+	: '{' '}'
+	| '{' statement_list '}'
+	;
+
+/*
+exception_statement
+	: 'try' statement
+	| 'try' statement 'finally' statement
+	| 'try' statement 'catch' statement
+	| 'try' statement 'catch' statement 'finally' statement
+	;
+*/
+
+statement
+	: variable_statement
+	| 'static' variable_statement
+	| expression_statement
+	| selection_statement
+	| iteration_statement
+	| jump_statement
+	| compound_statement
+	;
+
+statement_list
+	: statement
+	| statement_list statement
+	;
+
+namespace
+	: 'namespace' @identifier '{' '}'
+	| 'namespace' @identifier '{' declaration_list '}'
+	;
+
+declaration
+	: ';'
+	| namespace
+	| type_specifier
+	| function_header compound_statement
+	;
+
+declaration_list
+	: declaration
+	| declaration_list declaration
+	;
+
+script
+	: declaration_list
+	;
+

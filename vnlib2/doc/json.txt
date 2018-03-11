@@ -1,0 +1,46 @@
+number
+	: @integer
+	| @long_integer
+	| @float
+	| @double
+	;
+
+value
+	: 'null'
+	| 'true'
+	| 'false'
+	| number
+	| '+' number
+	| '-' number
+	| @string_literal
+	| array
+	| object
+	;
+
+value_list
+	: value
+	| value_list ',' value
+	;
+
+item
+	: @string_literal ':' value
+	;
+
+item_list
+	: item
+	| item_list ',' item
+	;
+
+array
+	: '[' ']'
+	| '[' value_list ']'
+	;
+
+object
+	: '{' '}'
+	| '{' item_list '}'
+	;
+
+script
+	: object
+	;

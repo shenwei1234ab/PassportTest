@@ -1,0 +1,56 @@
+value
+	: 'null'
+	| 'true'
+	| 'false'
+	| number
+	| '+' number
+	| '-' number
+	| @string_literal
+	| @identifier
+	| object
+	;
+
+number
+	: @integer
+	| @long_integer
+	| @float
+	| @double
+	;
+
+value_list
+	: value
+	| value_list value
+	;
+
+object
+	: object_head object_body
+	| '[' value_list ']'
+	;
+
+object_head
+	: '@'
+	| '@' @identifier
+	;
+
+object_body
+	: '{' '}'
+	| '{' object_member_list '}'
+	;
+
+object_member_list
+	: object_member
+	| object_member_list object_member
+	;
+
+object_member
+	: value
+	| attribute
+	;
+
+attribute
+	: @identifier '=' value
+	;
+
+script
+	: object_member_list
+	;

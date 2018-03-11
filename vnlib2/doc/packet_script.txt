@@ -1,0 +1,73 @@
+base_type
+	: 'bool'
+	| 's8'
+	| 'u8'
+	| 's16'
+	| 'u16'
+	| 's32'
+	| 'u32'
+	| 's64'
+	| 'u64'
+	| 'f32'
+	| 'f64'
+	| 'int'
+	| 'uint'
+	| 'string'
+	| @identifier
+	;
+
+type
+	: base_type
+	| 'vector' '<' base_type '>'
+	| 'array' '<' base_type ',' @integer '>'
+	;
+
+name_list
+	: @identifier
+	| name_list ',' @identifier
+	;
+
+struct_member
+	: type name_list
+	| type name_list ';'
+	;
+
+struct_member_list
+	: struct_member
+	| struct_member_list struct_member
+	;
+
+struct_body
+	: '{' '}'
+	| '{' struct_member_list '}'
+	;
+
+struct_def
+	: 'struct' @identifier struct_body
+	| 'struct' @identifier struct_body ';'
+	;
+
+packet_type
+	: 'packet'
+	| 'request'
+	| 'response'
+	;
+
+packet_def
+	: packet_type '<' @integer '>' @identifier
+	| packet_type '<' @integer '>' @identifier ';'
+	| packet_type '<' @integer '>' struct_body @identifier
+	| packet_type '<' @integer '>' struct_body @identifier ';'
+	| packet_type '<' @integer ',' type '>' @identifier
+	| packet_type '<' @integer ',' type '>' @identifier ';'
+	;
+
+definition
+	: struct_def
+	| packet_def
+	;
+
+script
+	: definition
+	| script definition
+	;
