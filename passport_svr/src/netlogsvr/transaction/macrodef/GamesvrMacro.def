@@ -1,0 +1,11 @@
+//����util���õ���id����������
+MACRODEF(GamesvrStart)
+MACRODEF(ActionInsert)
+
+
+/////////////transaction
+MACRODEF(TransactionInsert)
+
+
+MACRODEF(GamesvrEnd)
+

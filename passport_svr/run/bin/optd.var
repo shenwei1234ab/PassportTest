@@ -1,0 +1,28 @@
+thread_count = 1
+client_port = 46001
+
+
+console_mode = true
+
+psssport_db_info="192.168.200.128;3306;root;root;optd"
+psssport_db_threads=1
+
+
+
+
+resource = "/home/leave/workspace_newpassport/Passport/trunk/passport_svr/run/bin/res"
+version = 2
+instrusion_interval = 28800
+version_file = "logic.pkg"
+buy_nocheck = true 
+
+
+
+
+
+
+
+
+
+
+

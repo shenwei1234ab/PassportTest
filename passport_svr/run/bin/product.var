@@ -1,0 +1,41 @@
+iapProducts = [
+    @ {
+      productId = 1
+      productName = "com.longsgoo.ios.vd_20"
+      money = 1000
+      price = 5
+    }
+    @ {
+      productId = 2
+      productName = "com.longsgoo.ios.vd_50"
+      money = 2000
+      price = 10	
+    }
+    @ {
+      productId = 3
+      productName = "com.longsgoo.ios.vd_200"
+      money = 5000
+      price = 30	
+    }
+]
+
+androidProducts = [
+    @ {
+      productId = 1
+      productName = "com.longsgoo.android.vd_20"
+      money = 1000
+      price = 5
+    }
+    @ {
+      productId = 2
+      productName = "com.longsgoo.android.vd_50"
+      money = 2000
+      price = 10	
+    }
+    @ {
+      productId = 3
+      productName = "com.longsgoo.android.vd_200"
+      money = 5000
+      price = 30	
+    }
+]

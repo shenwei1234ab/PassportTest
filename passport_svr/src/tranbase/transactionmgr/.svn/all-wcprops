@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr
+END
+ActionAllocator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/ActionAllocator.cpp
+END
+ITransNotify.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/ITransNotify.h
+END
+TransactionMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/TransactionMgr.h
+END
+ActionAllocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/ActionAllocator.h
+END
+Transaction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/Transaction.cpp
+END
+IAction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/IAction.cpp
+END
+TransTimer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/TransTimer.cpp
+END
+Transaction.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/Transaction.h
+END
+IAction.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/IAction.h
+END
+TransactionMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/TransactionMgr.cpp
+END
+TransTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/transactionmgr/TransTimer.h
+END

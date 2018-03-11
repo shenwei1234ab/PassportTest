@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction
+END
+GSTransaction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSTransaction.cpp
+END
+GSTransaction.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSTransaction.h
+END
+GSTransactionMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSTransactionMgr.cpp
+END
+GSTransContext.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSTransContext.cpp
+END
+GSAction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSAction.cpp
+END
+GSTransactionMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSTransactionMgr.h
+END
+GSTransContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSTransContext.h
+END
+GSAction.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSAction.h
+END
+GSTransNtfDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/GSTransNtfDef.h
+END

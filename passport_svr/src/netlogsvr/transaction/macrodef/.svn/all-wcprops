@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/macrodef
+END
+GamesvrMacro.def
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/macrodef/GamesvrMacro.def
+END
+GamesvrMacro.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/macrodef/GamesvrMacro.cpp
+END
+GamesvrMacro.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/transaction/macrodef/GamesvrMacro.h
+END

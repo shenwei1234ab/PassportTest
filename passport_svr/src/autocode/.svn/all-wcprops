@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode
+END
+passport_client.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/passport_client.hpp
+END
+passport_dealsvr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/passport_dealsvr.hpp
+END
+netlog_gamesvr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/netlog_gamesvr.hpp
+END
+chat_client.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/chat_client.hpp
+END
+passport_friendsvr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/passport_friendsvr.hpp
+END
+prelogging.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/prelogging.hpp
+END
+passport_commonsvr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/passport_commonsvr.hpp
+END
+logged.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/logged.hpp
+END
+chat_cmd.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/chat_cmd.hpp
+END
+common.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/autocode/common.hpp
+END

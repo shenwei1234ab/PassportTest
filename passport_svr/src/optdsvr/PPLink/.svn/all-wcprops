@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/PPLink
+END
+PPSession.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/PPLink/PPSession.cpp
+END
+PPLinkManger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/PPLink/PPLinkManger.cpp
+END
+PPSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/PPLink/PPSession.h
+END
+PPLinkManger.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/PPLink/PPLinkManger.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/transaction/notifymanager
+END
+GSNotifyHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/transaction/notifymanager/GSNotifyHandler.cpp
+END
+GSNotifyDef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/transaction/notifymanager/GSNotifyDef.cpp
+END
+GSNotifyHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/transaction/notifymanager/GSNotifyHandler.h
+END
+GSNotifyDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/transaction/notifymanager/GSNotifyDef.h
+END
+GSNotifyMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/transaction/notifymanager/GSNotifyMgr.cpp
+END
+GSNotifyMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/transaction/notifymanager/GSNotifyMgr.h
+END

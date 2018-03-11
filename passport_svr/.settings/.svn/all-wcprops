@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Passport/!svn/ver/2/trunk/passport_svr/.settings
+END
+language.settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/.settings/language.settings.xml
+END
+org.eclipse.core.resources.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/.settings/org.eclipse.core.resources.prefs
+END
+org.eclipse.ltk.core.refactoring.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Passport/!svn/ver/2/trunk/passport_svr/.settings/org.eclipse.ltk.core.refactoring.prefs
+END

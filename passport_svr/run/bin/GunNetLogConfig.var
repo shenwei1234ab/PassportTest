@@ -1,0 +1,22 @@
+thread_count = 1
+netlog_port = 56002
+
+
+console_mode = false
+
+psssport_db_info="115.159.36.200;3306;shenwei;666666;cm_test"
+psssport_db_threads=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+

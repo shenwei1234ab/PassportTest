@@ -1,0 +1,54 @@
+thread_count = 1
+
+client_port = 46001
+gamesvr_port = 46002
+admin_port = 46003
+http_port = 46004   //
+
+console_mode = true
+
+psssport_db_info="115.159.36.200;3306;likai;666666;test_36101"
+psssport_db_threads=2
+
+gamesvr_ip="115.159.101.74"
+gamesvr_port=8802
+
+//******亲加即时通讯***********************************************************
+GOTYE_UserName = "app@longsgoo.com"
+GOTYE_Password = "Ft1Qm0Z_8"
+GOTYE_Max_Friend_Num = "30"
+GOTYE_Appkey = "89a6ab74-05c3-4631-bda0-5f370a6198ff"
+//******亲加即时通讯********* end ********************************************
+
+return_money = [
+	1 true 1.5
+	2 true 1.5
+	3 true 1.5
+	4 true 1.5
+	5 true 1.5
+	6 true 1.5
+	7 true 1.5
+	8 true 1.5
+	9 true 1.5
+	10 true 1.5
+	11 true 1.5
+	12 true 1.5
+	13 true 1.5
+	14 true 1.5
+	15 true 1.5
+	16 true 1.5
+	17 true 1.5
+	18 true 1.5
+	19 true 1.5
+	20 true 1.5
+	21 true 1.5
+	22 true 1.5
+	23 true 1.5
+	24 true 1.5
+	25 true 1.5
+	26 true 1.5
+	27 true 1.5
+	28 true 1.5
+	]
+
+

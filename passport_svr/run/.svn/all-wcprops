@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/Passport/!svn/ver/2/trunk/passport_svr/run
+END
+product.var
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Passport/!svn/ver/2/trunk/passport_svr/run/product.var
+END
+ServerAdmin.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Passport/!svn/ver/2/trunk/passport_svr/run/ServerAdmin.sh
+END
+OnRestart.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Passport/!svn/ver/2/trunk/passport_svr/run/OnRestart.sh
+END
+config.var
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Passport/!svn/ver/2/trunk/passport_svr/run/config.var
+END

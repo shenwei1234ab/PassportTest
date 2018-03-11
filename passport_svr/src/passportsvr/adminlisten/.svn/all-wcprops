@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/adminlisten
+END
+AdminSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/adminlisten/AdminSession.h
+END
+AdminListen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/adminlisten/AdminListen.cpp
+END
+AdminListen.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/adminlisten/AdminListen.h
+END
+AdminSession.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/adminlisten/AdminSession.cpp
+END

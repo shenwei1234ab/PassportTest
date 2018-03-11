@@ -1,0 +1,8 @@
+//所有util中用到的id都定义在这
+MACRODEF(UtilStart)
+
+MACRODEF(NotifyDBQuery)
+MACRODEF(NotifyDBExecute)
+
+MACRODEF(UtilEnd)
+

@@ -1,0 +1,33 @@
+缺少 redeem_packets.var
+
+
+服务器启动：从 run/bin 下读取config.var server.var product.var logic.pkg配置
+			 读取  users/.bin 用户信息
+			
+运行:1.主thread   DC_File::update：(有变化)写入users/accounts ,orders,server.var 文件中
+				    					写入log文件中
+	 2.  workthread   DC_File::saveUser: 写入users/.bin
+
+	 
+智能指针:异步操作的时候可以保证生命周期
+//异步请求登录测试
+
+
+//每隔5分钟
+判断是否入侵？Yes:保存level的入侵次数
+//保存金矿产量timer
+//保存timer
+
+
+
+//玩家退出
+保存金矿产量	timer
+//保存timer(入侵timer)
+
+
+
+
+
+玩家完成一个关卡
+1.如果关卡星数 == 3,入侵 m_running
+2.产生优惠券

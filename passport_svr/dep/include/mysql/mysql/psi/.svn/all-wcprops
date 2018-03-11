@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi
+END
+mysql_statement.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_statement.h
+END
+psi.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/psi.h
+END
+mysql_thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_thread.h
+END
+mysql_memory.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_memory.h
+END
+mysql_mdl.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_mdl.h
+END
+mysql_idle.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_idle.h
+END
+mysql_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_file.h
+END
+mysql_sp.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_sp.h
+END
+mysql_ps.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_ps.h
+END
+mysql_transaction.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_transaction.h
+END
+mysql_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_table.h
+END
+mysql_socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_socket.h
+END
+psi_memory.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/psi_memory.h
+END
+psi_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/psi_base.h
+END
+mysql_stage.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/psi/mysql_stage.h
+END

@@ -1,0 +1,21 @@
+[06:23][/home/leave/workspace_passport/passport_svr/src/netlogsvr/manager/configmgr/GunConfigMgr.cpp:45] F: loadBaseConfig OK! 
+[06:23][/home/leave/workspace_passport/passport_svr/prj/cmake/../../src/db/DatabaseWorkerPool.h:69] I: Opening DatabasePool . Asynchronous connections: 1.
+[06:24][/home/leave/workspace_passport/passport_svr/src/db/MySQLConnection.cpp:110] I: MySQL client library: 6.1.6
+[06:24][/home/leave/workspace_passport/passport_svr/src/db/MySQLConnection.cpp:111] I: MySQL server ver: 5.6.25 
+[06:24][/home/leave/workspace_passport/passport_svr/src/db/MySQLConnection.cpp:114] I: [WARNING] MySQL client/server version mismatch; may conflict with behaviour of prepared statements.
+[06:24][/home/leave/workspace_passport/passport_svr/src/db/MySQLConnection.cpp:117] I: Connected to MySQL database at 115.159.36.200
+[06:24][/home/leave/workspace_passport/passport_svr/src/db/MySQLConnection.cpp:441] E: In mysql_stmt_prepare() id: 5, sql: INSERT INTO freshguide(GameSvrId,dtEventTime,vGameAppid,PlatID,iZoneAreaID,vopenid,guid,Level,StepId) VALUES ( ?,?,?,?,?,?,?,?,?)
+[06:24][/home/leave/workspace_passport/passport_svr/src/db/MySQLConnection.cpp:442] E: Table 'cm_test.freshguide' doesn't exist
+[06:24][/home/leave/workspace_passport/passport_svr/src/netlogsvr/NetLogServer.cpp:73] F: Cannot connect to database
+[06:24][/home/leave/workspace_passport/passport_svr/prj/cmake/../../src/db/DatabaseWorkerPool.h:80] I: Closing down DatabasePool .
+[06:24][/home/leave/workspace_passport/passport_svr/src/netlogsvr/NetLogServer.cpp:65] I: stop.
+[09:28][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/src/netlogsvr/manager/configmgr/GunConfigMgr.cpp:45] F: loadBaseConfig OK! 
+[09:28][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/prj/cmake/../../src/db/DatabaseWorkerPool.h:69] I: Opening DatabasePool . Asynchronous connections: 1.
+[09:28][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/src/db/MySQLConnection.cpp:110] I: MySQL client library: 6.1.6
+[09:28][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/src/db/MySQLConnection.cpp:111] I: MySQL server ver: 5.6.25 
+[09:28][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/src/db/MySQLConnection.cpp:114] I: [WARNING] MySQL client/server version mismatch; may conflict with behaviour of prepared statements.
+[09:28][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/src/db/MySQLConnection.cpp:117] I: Connected to MySQL database at 115.159.36.200
+[09:29][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/src/netlogsvr/NetLogServer.cpp:45] D: LinkPool init OK! 
+[09:29][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/src/netlogsvr/NetLogServer.cpp:53] F: NetLogServer start OK
+[09:31][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/prj/cmake/../../src/db/DatabaseWorkerPool.h:80] I: Closing down DatabasePool .
+[09:31][/home/leave/workspace_newpassport/Passport/trunk/passport_svr/src/netlogsvr/NetLogServer.cpp:65] I: stop.

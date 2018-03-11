@@ -1,0 +1,538 @@
+struct UserId {
+	u64 low, high;	
+};
+
+struct IndexAndCount {
+	uint index;
+	uint count;
+};
+
+struct Msg_BaseInfo {
+	int money;
+	int diamond;
+	int chip1;
+	int chip2;
+	int chip3;
+};
+
+struct Msg_TowerIndex {
+	uint cls;
+	uint idx;
+};
+
+struct Msg_Tower {
+	uint cls;
+	uint idx;
+	uint count;
+};
+
+struct Msg_LevelData {
+	uint id;
+	uint starNum;
+	int  score;
+	bool shovel;
+	bool watch;
+	bool intrusion;
+	uint intrusionTimes;
+};
+
+struct Msg_GroupLevelData {
+	uint id;
+	u8 passed;
+	uint stars;
+	int score;
+	bool shovel;
+	bool watch;
+	bool resolved;
+	vector<uint> heroes;
+	vector<IndexAndCount> towers;
+	vector<IndexAndCount> platforms;
+};
+
+struct Msg_GroupData {
+	uint groupId;
+	vector<Msg_GroupLevelData> levels;
+	bool passed;
+	uint rewards;
+	uint intrusionTimes;
+};
+
+struct Msg_LevelVictory {
+	uint id;
+	uint stars;
+	int score;
+	bool shovel;
+	bool watch;
+};
+
+struct Msg_GroupLevelVictory {
+	Msg_LevelVictory data;
+	vector<uint> heroes;
+	vector<IndexAndCount> towers;
+	vector<IndexAndCount> platforms;
+};
+
+struct Msg_LevelOfGoldMine {
+	uint id;
+	uint intrusionTimes;
+	uint status;
+	f32  yield;
+};
+
+struct Msg_GoldMine {
+	uint id;
+	uint nowNum;
+};
+
+struct Msg_Rune {
+	uint id;
+	uint status;
+};
+
+struct Msg_Hero {
+	uint id;
+	uint towerClass;
+	uint unlockRes;
+	uint status;
+
+	vector<Msg_Rune> runeList;
+};
+
+struct Msg_UnlockRune {
+	uint idx;
+	uint runeIdx;
+};
+
+struct Msg_GoldMineCollect {
+	uint id;
+	uint num;
+};
+
+struct Msg_TimedData {
+	vector<Msg_GoldMine> goldMineList;
+};
+
+struct Msg_BeginBattleInfo {
+	uint  stamp;
+	uint levelId;
+};
+
+struct Msg_Item {
+	uint id;
+	uint count;
+};
+
+struct Msg_Product {
+	uint id;
+	uint price;
+	uint count;
+	string name;
+	string desc;
+	string orderId;
+};
+
+struct Msg_Monster {
+	uint id;
+	bool isMeet;
+};
+
+struct Msg_MissionRewardInfo {
+	uint id;
+	bool get;
+};
+
+struct Msg_Date
+{
+	uint year;
+	uint month;
+	uint day;
+};
+
+struct Msg_RegistrationData{
+	bool complete;
+	uint leftDay;
+	uint nums;
+	uint groups;
+};
+
+
+struct Msg_PlayerData {
+	uint stamp;
+	Msg_BaseInfo 	 	baseInfo;
+	vector<uint>		 	techList;
+	vector<Msg_Tower> 	towerList;
+	vector<Msg_LevelData> levelList;
+	vector<Msg_Item>		itemList;
+	vector<Msg_Monster>	monsterList;
+	vector<uint>			disableList;
+
+	vector<uint>			heroRes;
+	vector<Msg_Hero>		heroList;
+
+	vector<uint>			platformList;
+	vector<Msg_GroupData> groupList;
+
+	vector<Msg_MissionRewardInfo> missionRewardList;
+
+	Msg_TimedData		timedData;
+};
+
+struct Msg_PlayerInitialData {
+	UserId uid;
+	Msg_PlayerData playerData;
+};
+
+struct Msg_BuyFailedInfo {
+	uint id;
+	string orderId;
+	string desc;
+};
+
+struct Msg_ProductContent {
+	int diamond;
+};
+
+struct Msg_Intrusion {
+	uint levelId;
+	bool group;
+};
+
+struct Msg_CouponBaseInfo {
+	f32 validTime;
+	uint imageId, subImageId;
+	str8 title, desc;
+	uint cost, originalCost;	
+};
+
+struct Msg_CouponHero {
+	Msg_CouponBaseInfo info;
+	uint heroClassId; 	
+};
+
+struct Msg_CouponItems {
+	Msg_CouponBaseInfo info;
+	vector<Msg_Item> items;
+};
+
+struct Msg_CouponDiamonds {
+	Msg_CouponBaseInfo info;
+	uint diamonds;
+	uint productId;
+};
+
+struct Msg_DisableFG_AddItems {
+	uint groupId;
+	vector<Msg_Item> items;	
+};
+
+struct Msg_Award {
+	uint rank;
+	uint money;
+	uint diamonds;
+	vector<Msg_Item> items;
+	str8 desc;
+	uint imageId;
+};
+
+struct Msg_LotteryInfo {
+	vector<Msg_Award> awards;
+	f32 validTime;
+	uint drawTimes;
+	uint drawCost;	
+};
+
+struct Msg_LotteryDrawInfo {
+	uint index;
+	Msg_Award newAward;
+};
+
+struct Msg_Announcement {
+	uint id;
+	string content;	
+};
+
+struct Msg_RedeemCodePacket {
+	string title;
+	uint money;
+	uint diamonds;	
+};
+
+/////////////////////////////////////////////res
+packet<201>
+{
+	Msg_PlayerInitialData data;
+}res_initPlayerData;
+  
+
+packet<202>res_invalid_operation;
+packet<203>
+{
+  uint data; 					
+}res_loginOk;
+packet<204> 						res_loginFailed;
+packet<205>							res_otherUserLogin; 
+packet<206>
+{
+	Msg_PlayerData   data		
+}res_playerData;
+
+packet<207>
+{
+ 	Msg_TimedData timeData
+}res_timedData; 
+
+packet<208>
+{
+	uint data				 	
+}res_beginBattle;
+
+
+
+packet<211>
+{
+Msg_Intrusion  data
+}res_intrusion;
+packet<212 >
+{
+	vector<Msg_Product> shopInfo
+}res_rmbShopInfo;
+
+
+packet<213>
+{
+	Msg_Product	 productInfo
+} res_productInfo;
+packet<214>
+{
+	string data				
+}res_orderDone;
+packet<215>
+{
+	Msg_ProductContent	 data
+}res_productContent;
+
+packet<216>
+{							
+}res_couponNone;
+packet<217>
+{
+	Msg_CouponHero	data		
+}res_couponHero;
+
+packet<218>
+{
+	Msg_CouponItems data	
+}res_couponItems;
+
+packet<219>
+{
+	Msg_CouponDiamonds data		
+}res_couponDiamonds;
+
+packet<220>	
+{
+}res_lotteryNone;
+
+packet<221>
+{
+	Msg_LotteryInfo data
+}res_lotteryInfo;
+
+packet<222>
+{ 
+ 	Msg_LotteryDrawInfo data	
+}res_lotteryDrawInfo;
+
+packet<223>	
+{
+	Msg_RegistrationData data
+}res_updataRegistration;
+
+packet<224>
+{
+	uint data					
+}res_announcementId;
+
+packet<225>
+{
+	Msg_Announcement data		
+}res_announcement;
+packet<226>							
+{
+	
+}res_redeemCodeInvalid;
+packet<227>
+{
+	Msg_RedeemCodePacket data;	
+}res_redeemCodePacket;
+
+packet<228>
+{
+	int resultCode;
+	int diamond;	
+}res_getBalance;
+
+///////////////////////////////////////req
+packet<201>							req_reset;
+packet<202> 						req_playerData;
+packet<203> 						req_timedData;
+packet<204>
+{
+	uint data		 			
+}req_techUpgrade;
+packet<205>
+{
+	Msg_TowerIndex data		
+}req_towerUpgrade;
+packet<206>
+{
+	Msg_BeginBattleInfo data 
+}req_beginBattle;
+packet<207>
+{
+	Msg_LevelVictory data		
+}req_battleVictory;
+packet<208>							req_battleFailed;
+
+packet<211>
+{
+	Msg_GoldMineCollect data	
+}req_collectGoldMine;
+packet<212>	
+{
+ 	uint data				
+}req_upgradeHero;
+
+
+
+packet<213>
+{
+ Msg_UnlockRune data			
+}req_unlockRune;
+
+packet<214>			
+{
+	uint data		
+}req_buyItem;
+
+packet<215>
+{
+ 	uint data					
+}req_useItem;
+
+packet<216> 						req_rmbShopInfo;
+
+packet<217>		
+{
+	uint productId			
+}req_buyProduct;
+
+packet<218>	
+{
+	string data				
+}req_orderCompleted;
+
+
+
+packet<219>
+{
+	string data					
+}req_orderCancelled;
+packet<220>
+{
+	string data					
+}req_orderNoCheck;
+
+
+
+
+packet<221>
+{
+	uint  data					
+}req_meetMonster;
+
+packet<222> 	
+{
+	uint data				
+}req_disableFG;
+
+
+packet<223>
+{
+	uint category					
+}req_buyPlatform;
+
+packet<224>
+{
+ 	Msg_GroupLevelVictory data	
+}req_groupBattleVictory;
+
+packet<225>
+{
+	uint data
+} req_resetGroupLevel;
+
+packet<226>		
+{
+	uint data			
+}req_buyHeroWithCoupon;
+
+packet<227>	req_useCoupon;
+						
+packet<228>
+{
+	Msg_DisableFG_AddItems data; 
+}req_disableFG_AddItems;
+
+packet<229>		
+{
+				
+}req_lotteryDraw;		
+packet<230>
+{
+	uint data					
+}req_buyMoney;
+
+packet<231>		
+{
+	uint data			
+}req_getMissionReward;
+
+packet<232>							
+{
+}req_getRegistrationReward;
+
+packet<233>							
+{
+
+}req_announcement;
+
+packet<234>
+{
+	u32 data					
+}req_redeemCode;
+
+packet<235>
+{
+			
+}req_getBalance;
+
+/////////////////////cheat
+packet<300>
+{
+	uint data					
+}req_add_money;
+
+packet<301>
+{
+	uint	data
+}	req_add_diamond;			
+
+packet<303>	
+{
+	uint data				
+}req_pass_level;
+
+
+
+

@@ -1,0 +1,15 @@
+//所有util中用到的id都定义在这
+MACRODEF(GamesvrStart)
+MACRODEF(ActionTest)
+MACRODEF(ActionTestInsert)
+
+MACRODEF(ActionUpdateToken)
+
+/////////////transaction
+MACRODEF(TransactionTest)
+
+MACRODEF(TransactionUpdateToken)
+
+
+MACRODEF(GamesvrEnd)
+

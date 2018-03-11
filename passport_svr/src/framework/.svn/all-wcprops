@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/framework
+END
+Session.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/framework/Session.cpp
+END
+ServerApp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/framework/ServerApp.cpp
+END
+Session.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/framework/Session.h
+END
+ServerApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/framework/ServerApp.h
+END

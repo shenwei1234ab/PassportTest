@@ -1,0 +1,7 @@
+prj/
+build/
+run/bin
+*.vcxproj
+*.sln
+*.filters
+*.svn/

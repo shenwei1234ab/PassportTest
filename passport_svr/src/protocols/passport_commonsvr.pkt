@@ -1,0 +1,29 @@
+//------------心跳包-----
+packet<900> {
+	u64 handle;
+	u64 serverid;
+} req_Heart;
+
+packet<901> {
+	u64 handle;
+	u64 serverid;
+} res_Heart;
+
+
+//------------游戏服验证登陆者身份------
+packet<902> {
+	string ppid;		//须base64解码
+	string pptoken;		//须base64解码
+	uint gameId;	//游戏ID
+} req_ValidateUser;
+
+packet<903> {
+	uint errorCode;		//成功返回0,否则返回错误编号
+} res_ValidateUser;
+
+//------------获取json数据-----
+packet<904> {
+	u64 handle;
+	s32 result;
+	string jsonvalue;		//
+} res_JsonDate;

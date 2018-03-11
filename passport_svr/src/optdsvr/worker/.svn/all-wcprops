@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker
+END
+BSLevel.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSLevel.h
+END
+PreLoggingUser.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/PreLoggingUser.h
+END
+BSTool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSTool.cpp
+END
+BSRegistration.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSRegistration.h
+END
+BSItemStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSItemStore.h
+END
+LoggedUser.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/LoggedUser.h
+END
+PacketHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/PacketHandler.cpp
+END
+BSForceGuide.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSForceGuide.h
+END
+BSPlatformStoreInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSPlatformStoreInfo.h
+END
+BSMonsterMap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSMonsterMap.cpp
+END
+BSMission.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSMission.h
+END
+UUID.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/UUID.h
+END
+BSLevelGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSLevelGroup.h
+END
+BSTechUpgrade.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSTechUpgrade.cpp
+END
+BSHero.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSHero.cpp
+END
+BSGoldMine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSGoldMine.cpp
+END
+BSIntrusion.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSIntrusion.h
+END
+BSLevelGroupInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSLevelGroupInfo.cpp
+END
+WorkQueue.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/WorkQueue.cpp
+END
+BSPlatformStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSPlatformStore.h
+END
+BSLevel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSLevel.cpp
+END
+LoggedUser.cpp.bak
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/LoggedUser.cpp.bak
+END
+PreLoggingUser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/PreLoggingUser.cpp
+END
+BSPlayerBaseInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSPlayerBaseInfo.h
+END
+BSRegistration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSRegistration.cpp
+END
+BSItemStore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSItemStore.cpp
+END
+LoggedUser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/LoggedUser.cpp
+END
+BSForceGuide.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSForceGuide.cpp
+END
+BSPlatformStoreInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSPlatformStoreInfo.cpp
+END
+BSTowerUpgrade.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSTowerUpgrade.h
+END
+AsyncTask.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/AsyncTask.h
+END
+BSMission.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSMission.cpp
+END
+UUID.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/UUID.cpp
+END
+BSTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSTool.h
+END
+BSLevelGroup.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSLevelGroup.cpp
+END
+PacketHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/PacketHandler.h
+END
+BSMonsterMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSMonsterMap.h
+END
+BSIntrusion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSIntrusion.cpp
+END
+BSTechUpgrade.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSTechUpgrade.h
+END
+BSPlatformStore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSPlatformStore.cpp
+END
+BSHero.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSHero.h
+END
+BSPlayerBaseInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSPlayerBaseInfo.cpp
+END
+BSGoldMine.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSGoldMine.h
+END
+BSLevelGroupInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSLevelGroupInfo.h
+END
+WorkQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/WorkQueue.h
+END
+BSTowerUpgrade.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/worker/BSTowerUpgrade.cpp
+END

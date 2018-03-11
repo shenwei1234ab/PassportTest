@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr
+END
+NetLogServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/NetLogServer.cpp
+END
+NetLogServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/NetLogServer.h
+END
+Protocols.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/netlogsvr/Protocols.h
+END

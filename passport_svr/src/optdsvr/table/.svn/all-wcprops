@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table
+END
+Table_herorune.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_herorune.cpp
+END
+Table_tech.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_tech.h
+END
+Table_platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_platform.h
+END
+Table_monster.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_monster.h
+END
+Table_dialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_dialog.cpp
+END
+Table_levelclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_levelclass.h
+END
+Table_hint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_hint.cpp
+END
+Table_gold_mine.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_gold_mine.h
+END
+Table_award.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_award.h
+END
+Table_coupon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_coupon.cpp
+END
+Table_cage.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_cage.h
+END
+Table_diamond_shop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_diamond_shop.cpp
+END
+Table_progress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_progress.cpp
+END
+Table_tower.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_tower.h
+END
+Table_object.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_object.cpp
+END
+Table_level.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_level.cpp
+END
+Table_wave.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_wave.h
+END
+TableBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/TableBase.cpp
+END
+Table_training.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_training.cpp
+END
+Table_item_store.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_item_store.h
+END
+Table_Registration.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_Registration.h
+END
+Table_spell.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_spell.cpp
+END
+Table_force_guide.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_force_guide.h
+END
+Table_sub_wave.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_sub_wave.h
+END
+Table_mission.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_mission.cpp
+END
+Table_tech.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_tech.cpp
+END
+Table_platform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_platform.cpp
+END
+Table_buff.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_buff.h
+END
+Table_monster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_monster.cpp
+END
+Table_herorune.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_herorune.h
+END
+Table_levelclass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_levelclass.cpp
+END
+Table_gold_mine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_gold_mine.cpp
+END
+Table_award.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_award.cpp
+END
+Table_cage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_cage.cpp
+END
+Table_tower.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_tower.cpp
+END
+Table_wave.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_wave.cpp
+END
+Table_dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_dialog.h
+END
+Table_hint.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_hint.h
+END
+Table_coupon.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_coupon.h
+END
+Table_diamond_shop.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_diamond_shop.h
+END
+Table_progress.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_progress.h
+END
+Table_item_store.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_item_store.cpp
+END
+Table_Registration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_Registration.cpp
+END
+Table_force_guide.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_force_guide.cpp
+END
+Table_object.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_object.h
+END
+Table_sub_wave.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_sub_wave.cpp
+END
+Table_level.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_level.h
+END
+TableBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/TableBase.h
+END
+Table_training.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_training.h
+END
+Table_buff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_buff.cpp
+END
+Table_spell.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_spell.h
+END
+Table_mission.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/table/Table_mission.h
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr
+END
+RedeemPacket.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/RedeemPacket.h
+END
+ServerData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/ServerData.cpp
+END
+DateTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/DateTime.h
+END
+OPTDServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/OPTDServer.h
+END
+数据库Note
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/%E6%95%B0%E6%8D%AE%E5%BA%93Note
+END
+WorldManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/WorldManager.cpp
+END
+Note
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/Note
+END
+ServerData.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/ServerData.h
+END
+WorldManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/WorldManager.h
+END
+RedeemPacket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/RedeemPacket.cpp
+END
+Protocols.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/Protocols.h
+END
+DateTime.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/DateTime.cpp
+END
+OPTDServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/OPTDServer.cpp
+END
+Common.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/Common.h
+END

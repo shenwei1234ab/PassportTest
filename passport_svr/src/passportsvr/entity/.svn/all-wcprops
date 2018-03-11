@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity
+END
+Player.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Player.h
+END
+Account.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Account.h
+END
+Order_Lenovo.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Lenovo.h
+END
+Player_Subscribe.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Player_Subscribe.h
+END
+Order_Gionee.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Gionee.h
+END
+Order_360.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_360.h
+END
+AsyncObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/AsyncObject.h
+END
+Order_Flyme.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Flyme.h
+END
+Order_Oppo.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Oppo.h
+END
+Order.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order.h
+END
+Player_Buy.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Player_Buy.h
+END
+Order_Huawei.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Huawei.h
+END
+SessionData.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/SessionData.h
+END
+Order_AppChina.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_AppChina.h
+END
+Order_Baidu.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Baidu.h
+END
+Order_Xiaomi.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Xiaomi.h
+END
+Order_Kuaiyong.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Kuaiyong.h
+END
+Order_Pptv.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Pptv.h
+END
+Order_Xmwan.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/entity/Order_Xmwan.h
+END

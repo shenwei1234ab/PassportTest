@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/database
+END
+PassPortDatabaseConnection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/database/PassPortDatabaseConnection.cpp
+END
+Dbtable.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/database/Dbtable.h
+END
+PassPortDatabaseConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/database/PassPortDatabaseConnection.h
+END

@@ -1,0 +1,300 @@
+问题:player表		player_buy表分三个
+mysql -h115.159.36.200 -ushenwei -p	
+1.用户表
+base_info
+UUId (unsigned char[16])  clip0(int)  clip1   clip2  diamonds(int)  money(int)  purchased_diamonds(int) stamp(int)  coupon_id(uint)    coupon_timer(float) 
+shovel0(uint) shovel1(uint) skull0(uint) skull1(uint) watch0(uint) watch1(uint) 
+
+sql:
+create table baseinfo
+(UUId char(36) primary key,
+clip0 int,
+clip1 int,
+clip2 int,
+money int,
+diamonds int,
+purchased_diamonds int,
+stamp int,
+coupon_id int,
+coupon_timer float,
+shovel0 int,
+shovel1 int,
+skull0 int,
+skull1 int,
+watch0 int,
+watch1 int,
+running bool,
+timer float,
+count int,
+first_date char,
+logingroup	int,
+last_date char,
+lottery_draw int,
+lottery_state int,
+lottery_timer float
+);
+
+
+create table baseinfo_coupon
+(UUId char(36) primary key,
+coupon_id int,
+coupon_timer float,
+coupon_timestamp datetime
+);
+
+
+
+
+
+
+
+
+
+
+
+insert into baseinfo
+(UUId,clip0,clip1,clip2,money,diamonds,purchased_diamonds,stamp,coupon_id,coupon_timer,shovel0,shovel1,skull0,skull1,watch0,watch1,running,timer,count,first_date,logingroup,last_date,lottery_draw,lottery_state,lottery_timer) 
+values("266c18e7-5899-4dfd-b6a0-d6de9d5bd278",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"0-1-0",0,"0-1-0",0,0,0);
+
+
+select UUId,clip0,clip1,clip2,money,diamonds,purchased_diamonds,stamp,coupon_id,coupon_timer,shovel0,shovel1,skull0,skull1,watch0,watch1,running,timer,count,first_date,logingroup, last_date,lottery_draw,lottery_state,lottery_timer
+from baseinfo;
+
+
+
+
+create table baseinfo
+(UUId char(36) primary key,
+first_date date,
+last_date date,
+group	int
+);
+
+insert into baseinfo
+(UUId,first_date,last_date,group)
+values("266c18e7-5899-4dfd-b6a0-d6de9d5bd278","0-1-0","0-1-0",0);
+
+
+
+
+2.用户-强制引导关系表
+baseinfo_forceguide
+id(自曾)   UUId(外键) guideid(引导id）				
+1	     001                101
+2            001                102
+
+
+sql:
+create table baseinfo_forceguide
+(id bigint primary key auto_increment,
+UUId  char(36),
+guideid int unique
+);
+insert into baseinfo_forceguide (UUId,guideid)values("266c18e7-5899-4dfd-b6a0-d6de9d5bd278",101);
+////////////////////////////////////////////////////////////////////
+//////delete												
+//////3.hero													
+//////create table hero
+//////(heroid bigint primary key auto_increment,
+//////id int,
+//////towerclass int,
+//////status int,
+//////unlockRes  int
+//////);
+//////heroid id	towerclass    status	unlockRes	
+//////1	 1130	 1100			3        80
+////////////////////////////////////////////////////////////////////
+
+
+
+
+4.用户-hero关系表  
+create table baseinfo_hero
+(tableid bigint primary key auto_increment,
+UUId char(36),
+heroid  char(36),
+id	int,
+towerclass int,
+status int,
+unlockRes  int
+);
+
+baseinfo_hero
+baseinfo_heroid 			UUId 		heroid   id 	 towerclass    status        unlockRes				
+1	  						001   	     001+1	   		   
+
+
+insert into baseinfo_hero(UUId,heroid,id,towerclass,status,unlockRes)values("266c18e7-5899-4dfd-b6a0-d6de9d5bd278",1);
+
+
+
+4.英雄-符文关系表
+hero_runes
+id(主键) heroid	   runeid         runestatus         (kNotOpen = 0, kLock,kUnLock, kMaxLv)
+1	   1      		     1                   2
+2	   1     		     2                   1
+3	  1     		     3                   1
+
+
+
+create table hero_runes
+(id bigint primary key auto_increment,
+heroid char(36),
+runeid  int,
+runestatus  int
+);
+
+
+5.物品
+baseinfo_itemstore
+id   	UUId	itemid  itemstatus
+1    	910    		0
+2		920    		0	
+3		930    		0	
+4		940    		0		
+
+create table baseinfo_itemstore
+(id bigint primary key auto_increment,
+UUId char(36),
+itemid  int,
+itemstatus  int
+);
+
+
+6.level_groups			//暂时不知道
+id	UUid   	
+
+
+
+7.baseinfo_levels			用户-关卡关系
+id    UUId      levelid   intrusion    intrusion_times   score    shovel   stars  watch
+
+create table baseinfo_levels
+(id bigint primary key auto_increment,
+UUId char(36),
+levelid  int,
+intrusion bool,
+intrusion_times  int,
+score  int,
+shovel  bool,
+starts	 int,
+watch	 bool
+);
+
+
+
+8.baseinfo_mines			
+create table baseinfo_mines
+(id bigint primary key auto_increment,
+UUId char(36),
+minesid  int,
+count	int,
+timer float
+);
+
+
+
+
+
+
+9.baseinfo_mission
+id    UUId	missionid	missionstatus
+
+create table baseinfo_mission
+(id bigint primary key auto_increment,
+UUId char(36),
+missionid int,
+missionstatus  bool
+);
+
+
+10.baseinfo_monstermap
+id  	UUId   monsterid	monsterstatus
+create table baseinfo_monstermap
+(id bigint primary key auto_increment,
+UUId char(36),
+monsterid int,
+monsterstatus  bool
+);
+
+
+
+
+11.baseinfo_platformstore
+id    UUId	platformid
+create table baseinfo_platformstore
+(id bigint primary key auto_increment,
+UUId char(36),
+platformid int
+);
+
+
+
+
+
+
+12.redeem_categories		//暂时不知道
+
+
+
+13.baseinfo_techupgrade
+id	UUId	techindex techstatus
+
+create table baseinfo_techupgrade
+(id bigint primary key auto_increment,
+UUId char(36),
+techindex int,
+techstatus int
+);
+
+
+
+14.tower_upgrade
+tower_upgradeid towerClass		towerinClassIndex	upgradevalue	
+1						0						0				0			
+2						0						1				0				
+3						0						2				0	
+
+
+15.base_info-tower_upgrade		用户-tower_update关系表
+id  UUId   TowerClass		TowerInClass0level    TowerInClass1level		TowerInClass2level   	
+
+create table baseinfo_towerupgrade
+(id bigint primary key auto_increment,
+UUId char(36),
+towerClassIndex int,
+towerinClassIndex int,
+upgradevalue int
+);
+
+
+16.levelgroups 
+id	UUId 	groupId 	passed		intrusion_count rewards_count	
+create table baseinfo_levelgroups
+(id bigint primary key auto_increment,
+UUId char(8),
+groupId int,
+passed bool,
+intrusion_count	int,
+rewards_count  int
+);
+
+
+
+17.levelgroups_levels
+id	groupId	levelid		heros	platforms	resolved  shovel	 stars	 status	watch		
+		180				181		 		 1,2				
+
+create table levelgroups_levels
+(id bigint primary key auto_increment,
+groupId int,
+levelid int,
+heros varchar(16),					
+platforms varchar(12),					index,count;index,count,index,count
+resolved 	bool,
+shovel		bool,
+stars	int,					
+status	int,								//0, not passed. 1, passed. 2, intrusion.
+watch bool
+);			
+

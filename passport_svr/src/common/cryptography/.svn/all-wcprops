@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography
+END
+BigNumber.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/BigNumber.h
+END
+Define.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/Define.h
+END
+RsaVerify.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/RsaVerify.h
+END
+CompilerDefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/CompilerDefs.h
+END
+HmacHash.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/HmacHash.h
+END
+RsaSign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/RsaSign.cpp
+END
+BigNumber.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/BigNumber.cpp
+END
+RsaVerify.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/RsaVerify.cpp
+END
+RsaSign.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/RsaSign.h
+END
+HmacHash.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/common/cryptography/HmacHash.cpp
+END

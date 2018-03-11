@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/notifymanager
+END
+NotifyMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/notifymanager/NotifyMgr.cpp
+END
+NotifyMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/notifymanager/NotifyMgr.h
+END
+NotifyDef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/notifymanager/NotifyDef.cpp
+END
+NotifyDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/notifymanager/NotifyDef.h
+END

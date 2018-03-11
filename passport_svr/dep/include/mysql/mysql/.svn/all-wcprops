@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql
+END
+client_plugin.h.pp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/client_plugin.h.pp
+END
+client_plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/client_plugin.h
+END
+plugin_trace.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/plugin_trace.h
+END
+client_authentication.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/client_authentication.h
+END
+service_mysql_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/service_mysql_alloc.h
+END
+get_password.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/get_password.h
+END
+plugin_auth_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/plugin_auth_common.h
+END
+service_my_snprintf.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql/service_my_snprintf.h
+END

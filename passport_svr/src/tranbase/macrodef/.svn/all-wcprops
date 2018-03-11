@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/macrodef
+END
+UtilMacro.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/macrodef/UtilMacro.cpp
+END
+UtilMacro.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/macrodef/UtilMacro.h
+END
+UtilMacro.def
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tranbase/macrodef/UtilMacro.def
+END

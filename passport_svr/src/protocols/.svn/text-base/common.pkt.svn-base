@@ -1,0 +1,9 @@
+
+struct UserId {
+	u64 low, high;	
+};
+
+struct IndexAndCount {
+	uint index;
+	uint count;
+};

@@ -1,0 +1,9 @@
+packet<300> {
+	u64 handle;
+	string log;
+} req_netlog;
+
+packet<301> {
+	u64 handle;
+	u32 status;
+} res_netlog;

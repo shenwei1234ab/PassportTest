@@ -1,0 +1,195 @@
+
+//----------客户端登陆并获取PPID------
+packet<100> {
+	u32 tpId; 		//第三方 platform ID(前16位表示平台id，后16位表示设备id)
+	uint gameId;	//游戏ID
+	string openId;	//
+	string token;	//
+} req_LoginByTPInfo; //失败返回res_LoginError（ 201）
+
+//------------客户端登陆,返回成功失败------
+packet<101> {
+	u64 ppid;				//
+	uint gameId;		//
+	u32 pptoken;		//
+} req_Login;
+
+packet<102> {
+	u64 ppid;			//
+	u32 pptoken;		//
+} res_LoginOkWithInfo;
+
+packet<103> res_LoginOk;
+
+packet<104> {
+	uint errorCode;		//
+} res_LoginError;
+
+
+
+//------------客户端申请订单号------
+packet<105> {
+	uint productId;		//产品ID
+	uint serverId;		//游戏服务器ID (校验,入库)
+
+} req_CreateOrder;
+
+packet<106> {
+	uint errorCode;		//创建订单错误号
+} res_CreateOrderError;
+
+packet<107> {
+	uint orderId;		//订单ID
+	string productName;	//产品名称
+	uint price;			//支付金额
+} res_CreateOrder;
+
+//------------客户端发送订单数据------
+packet<108> {
+	uint orderId;		//订单ID
+	string receiptData;	//订单凭据
+} req_Purchase;
+
+packet<109> {
+	uint orderId;		//订单ID
+} req_OrderCancel;
+
+packet<110> {
+	uint orderId;		//订单ID
+	uint errorCode;		// 0 订单正常
+} res_OrderFinished;
+
+//------------- 官服相关----------------------------------------
+//------------- 官方服务器注册----------------------------------不加密
+packet<111> {
+	string account;   
+	string password;
+	string phonenumber;    
+} req_UserRegister;
+
+packet<112> res_RegisterOk;
+
+packet<113> {
+	uint errorCode;
+} res_RegisterFail;
+//------------------------------------------------------------------
+
+
+
+//--------------帐号是否可用---------------------
+packet<114> {
+	string account;
+} req_CheckAccountCanUse;
+
+packet<115> {
+	uint errorCode;
+} res_CheckAccountCanUse;
+
+
+
+//------------昵称是否合法-----------------------
+packet<116> {
+	string nickname;
+} req_SetNickname;
+
+packet<117> res_SetNicknameOk;
+
+packet<118> {
+	uint errorCode;
+} res_SetNicknameFail;
+
+
+
+//--------------官方服务器验证登录-----------密码加密
+packet<119> {
+	u32 tpId;
+	uint gameId;
+	string account;
+	string password; 
+} req_UserLogin;
+
+//登录成功同102
+//登录失败同104
+
+
+//---------------获取随机姓名----------------
+packet<120> req_RandomNickname;
+
+packet<121> {
+	string nickname;
+} res_RandomNickname;
+
+// ---- 登录2 ---------------------------
+
+packet<130> {
+	u32 tpId; 		
+	uint gameId;	
+	string openId;	
+	string token;	
+} req_LoginByTPInfo2;
+
+packet<131> {
+	u64 ppid;		
+	u32 pptoken;
+	string nickname;
+	string avatar;
+} res_LoginOkWithInfo2;
+
+// ---- 设置 Avatar ----------------------
+
+packet<132> {
+	string avatar;
+} req_SetAvatar;
+
+packet<133> res_SetAvatarOk;
+
+// ---- 获取游戏服务器地址 ---------------------------
+packet<134> {
+	string versionInfo;
+	string reserved;
+}req_GetGameSvrAddr;
+
+packet<135> {
+	string ip;
+	u16 port;
+} res_GetGameSvrAddr;
+packet<136> {
+	uint errorCode;
+} res_GetGameSvrAddrFail;
+
+
+// ---- 申请帐号绑定 ------------2016-02-01
+
+packet<137> {
+	u32 tpId;
+	uint gameId;
+	string account;   //要绑定的官服帐号
+	string password;	
+} req_BindingAccount;
+
+packet<138> {
+	uint errorCode; // 0:绑定成功
+} res_BindingAccount;
+
+
+
+// ---- 修改密码 ------------2016-02-01
+packet<141> {
+	string account;   //
+	string oldPassword;   //
+	string password;   //要重置的密码
+} req_ResetPWD;
+
+packet<142> {
+	uint errorCode; // 0:成功
+} res_ResetPWD;
+
+// ---- 查询渠道id ------------2016-07-14
+packet<143> {
+	uint mainChannelId; // 第三方主渠道id ： 棱镜-42，quickSDK-43
+	string channelLabel;   //
+} req_GetSubChannelId;
+
+packet<144> {
+	uint ppChannelId; // 
+} res_GetSubChannelId;

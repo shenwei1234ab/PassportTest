@@ -1,0 +1,165 @@
+iapProducts = [
+    @ {
+      productId = 1
+      productName = "com.longsgoo.vd_60"
+      money = 60
+      price = 6
+	limitBuyCount = 0
+	extraValue = 0
+    }
+    @ {
+      productId = 2
+      productName = "com.longsgoo.vd_180"
+      money = 180
+      price = 18	
+	limitBuyCount = 0
+	extraValue = 0
+    }
+    @ {
+      productId = 3
+      productName = "com.longsgoo.vd_300"
+      money = 320
+      price = 30	
+	limitBuyCount = 1
+	extraValue = 280
+    }
+   @ {
+      productId = 4
+      productName = "com.longsgoo.vd_680"
+      money = 740
+      price = 68	
+	limitBuyCount = 1
+	extraValue = 390
+    }
+   @ {
+      productId = 5
+      productName = "com.longsgoo.vd_980"
+      money = 1080
+      price = 98	
+	limitBuyCount = 1
+	extraValue = 500
+    }
+   @ {
+      productId = 6
+      productName = "com.longsgoo.vd_1680"
+      money = 1880
+      price = 168	
+	limitBuyCount = 1
+	extraValue = 800
+    }
+  @ {
+      productId = 7
+      productName = "com.longsgoo.vd_3480"
+      money = 3980
+      price = 348	
+	limitBuyCount = 1
+	extraValue = 1500
+    }
+  @ {
+      productId = 8
+      productName = "com.longsgoo.vd_10"
+      money = 10
+      price = 1	
+	limitBuyCount = 0
+	extraValue = 0
+    }
+  @ {
+      productId = 10001
+      productName = "com.longsgoo.ios.vd_monthCard1"
+      money = 30
+      price = 25	
+	limitBuyCount = 0
+	extraValue = 0
+    }
+  @ {
+      productId = 10002
+      productName = "com.longsgoo.ios.vd_WeekCard1"
+      money = 7
+      price = 6	
+	limitBuyCount = 0
+	extraValue = 0
+    }
+]
+
+androidProducts = [
+    @ {
+      productId = 1
+      productName = "com.longsgoo.android.vd_60"
+      money = 60
+      price = 6
+	limitBuyCount = 0
+	extraValue = 0
+    }
+    @ {
+      productId = 2
+      productName = "com.longsgoo.android.vd_180"
+      money = 180
+      price = 18	
+	limitBuyCount = 0
+	extraValue = 0
+    }
+    @ {
+      productId = 3
+      productName = "com.longsgoo.android.vd_300"
+      money = 320
+      price = 30	
+	limitBuyCount = 1
+	extraValue = 280
+    }
+    @ {
+      productId = 4
+      productName = "com.longsgoo.android.vd_680"
+      money = 740
+      price = 68
+	limitBuyCount = 1
+	extraValue = 390
+    }
+    @ {
+      productId = 5
+      productName = "com.longsgoo.android.vd_980"
+      money = 1080
+      price = 98
+	limitBuyCount = 1
+	extraValue = 500
+    }
+    @ {
+      productId = 6
+      productName = "com.longsgoo.android.vd_2680"
+      money = 1880
+      price = 168
+	limitBuyCount = 1
+	extraValue = 800
+    }
+    @ {
+      productId = 7
+      productName = "com.longsgoo.android.vd_3480"
+      money = 3980
+      price = 348
+	limitBuyCount = 1
+	extraValue = 1500
+    }
+    @ {
+      productId = 8
+      productName = "com.longsgoo.android.vd_10"
+      money = 10
+      price = 1
+	limitBuyCount = 0
+	extraValue = 0
+    }
+ @ {
+      productId = 10001
+      productName = "com.longsgoo.android.vd_monthCard1"
+      money = 30
+      price = 25	
+	limitBuyCount = 0
+	extraValue = 0
+    }
+  @ {
+      productId = 10002
+      productName = "com.longsgoo.android.vd_WeekCard1"
+      money = 7
+      price = 6	
+	limitBuyCount = 0
+	extraValue = 0
+    }
+]

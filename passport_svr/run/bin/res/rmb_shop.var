@@ -1,0 +1,65 @@
+@product
+{
+	id = 1
+	name = "product01"
+	desc = "diamond"
+	price = 6
+	count = 60
+}
+
+@product
+{
+	id = 2
+	name = "product02"
+	desc = "diamond"
+	price = 30
+	count = 330
+}
+
+@product
+{
+	id = 3
+	name = "product03"
+	desc = "diamond"
+	price = 88
+	count = 1000
+}
+
+@product
+{
+	id = 4
+	name = "product04"
+	desc = "diamond"
+	price = 288
+	count = 3500
+}
+
+@product
+{
+	id = 5
+	name = "product05"
+	desc = "diamond"
+	price = 18
+	count = 330
+	hidden = true
+}
+
+@product
+{
+	id = 6
+	name = "product06"
+	desc = "diamond"
+	price = 60
+	count = 1000
+	hidden = true
+}
+
+@product
+{
+	id = 7
+	name = "product07"
+	desc = "diamond"
+	price = 216
+	count = 3500
+	hidden = true
+}

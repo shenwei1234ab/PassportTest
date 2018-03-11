@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten
+END
+PlayerHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/PlayerHandler.h
+END
+ClientListen.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/ClientListen.h
+END
+ClientSession.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/ClientSession.cpp
+END
+LoadBalance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/LoadBalance.cpp
+END
+LoginHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/LoginHandler.cpp
+END
+ClientSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/ClientSession.h
+END
+SendDealReq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/SendDealReq.cpp
+END
+OrderHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/OrderHandler.cpp
+END
+PlayerHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/PlayerHandler.cpp
+END
+ClientListen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/ClientListen.cpp
+END
+LoginVerify.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/clientlisten/LoginVerify.cpp
+END

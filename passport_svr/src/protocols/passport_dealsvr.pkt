@@ -1,0 +1,126 @@
+
+//------------获取余额-----
+packet<203> {
+	u64 handle;
+	string openid;		//
+	string openkey;		//
+	string pay_token;		//
+	string appid;		//
+	string ts;		//
+	string pf;		//
+	string pfkey;		//
+	string zoneid;		//
+} req_GetBalance;
+
+
+//------------支付-----
+packet<204> {
+	u64 handle;
+	string openid;		//
+	string openkey;		//
+	string pay_token;		//
+	string appid;		//
+	string ts;		//
+	string pf;		//
+	string pfkey;		//
+	string zoneid;		//
+	string amt;	
+} req_Pay;
+
+
+//------------取消支付-----
+packet<205> {
+	u64 handle;
+	string openid;		//
+	string openkey;		//
+	string pay_token;		//
+	string appid;		//
+	string ts;		//
+	string pf;		//
+	string pfkey;		//
+	string zoneid;		//
+	string amt;	
+	string billno;
+} req_CancelPay;
+
+
+
+//------------赠送钻石-----
+packet<206> {
+	u64 handle;
+	string openid;		//
+	string openkey;		//
+	string pay_token;		//
+	string appid;		//
+	string ts;		//
+	string pf;		//
+	string pfkey;		//
+	string zoneid;		//
+	string discountid;
+	string giftid;
+	string presenttimes;
+} req_Present;
+
+
+
+//------------账目保存-----
+packet<207> {
+	u64 handle;
+	string openid;		//
+	string openkey;		//
+	string pay_token;		//
+	string appid;		//
+	string ts;		//
+	string pf;		//
+	string pfkey;		//
+	string zoneid;		//
+	string amt;	
+} req_AcctSave;
+//------------查询资格-----
+packet<208> {
+	u64 handle;
+	string openid;		//
+	string openkey;		//
+	string pay_token;		//
+	string appid;		//
+	string ts;		//
+	string pf;		//
+	string pfkey;		//
+	string zoneid;		//
+} req_QueryQualify;
+//------------购买货物-----
+packet<209> {
+	u64 handle;
+	string openid;		//
+	string openkey;		//
+	string pay_token;		//
+	string appid;		//
+	string ts;		//
+	string pf;		//
+	string pfkey;		//
+	string zoneid;		//
+	string payitem;	
+	string goodsmeta;
+	string goodsurl;
+	string amt;
+	string max_num;
+	string appmode;
+	string app_metadata;
+} req_BuyGoods;
+//------------订阅M-----
+packet<210> {
+	u64 handle;
+	string openid;		//
+	string openkey;		//
+	string pay_token;		//
+	string appid;		//
+	string ts;		//
+	string pf;		//
+	string pfkey;		//
+	string zoneid;		//
+	string cmd;	
+	string tss_inner_product_id;
+	string buy_quantity;
+} req_SubscribeM;
+
+

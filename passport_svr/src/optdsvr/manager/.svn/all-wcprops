@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager
+END
+BSCommonFunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSCommonFunc.h
+END
+BSRmbShopManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSRmbShopManager.h
+END
+LoggedUserManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/LoggedUserManager.h
+END
+BSFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSFactory.h
+END
+DatabaseManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/DatabaseManager.h
+END
+BSMissionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSMissionManager.h
+END
+BSTechManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSTechManager.h
+END
+DataCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/DataCenter.cpp
+END
+DC_DataBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/DC_DataBase.cpp
+END
+SessionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/SessionManager.cpp
+END
+BSAwardManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSAwardManager.cpp
+END
+BSTowerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSTowerManager.cpp
+END
+BSCouponManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSCouponManager.cpp
+END
+BSLevelGroupInfoManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSLevelGroupInfoManager.h
+END
+WorkQueueManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/WorkQueueManager.h
+END
+BSCommonFunc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSCommonFunc.cpp
+END
+DC_File.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/DC_File.h
+END
+BSRmbShopManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSRmbShopManager.cpp
+END
+LoggedUserManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/LoggedUserManager.cpp
+END
+BSFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSFactory.cpp
+END
+BSDiamondShop.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSDiamondShop.h
+END
+BSRegistrationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSRegistrationManager.h
+END
+BSMissionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSMissionManager.cpp
+END
+BSTechManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSTechManager.cpp
+END
+DataCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/DataCenter.h
+END
+DC_DataBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/DC_DataBase.h
+END
+BSLevelGroupInfoManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSLevelGroupInfoManager.cpp
+END
+WorkQueueManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/WorkQueueManager.cpp
+END
+BSAwardManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSAwardManager.h
+END
+SessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/SessionManager.h
+END
+DC_File.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/DC_File.cpp
+END
+BSTowerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSTowerManager.h
+END
+BSCouponManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSCouponManager.h
+END
+BSDiamondShop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSDiamondShop.cpp
+END
+BSRegistrationManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/optdsvr/manager/BSRegistrationManager.cpp
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/httplisten
+END
+HttpListen.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/httplisten/HttpListen.cpp
+END
+HttpLink2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/httplisten/HttpLink2.cpp
+END
+HttpLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/httplisten/HttpLink.h
+END
+HttpListen.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/httplisten/HttpListen.h
+END
+HttpLink.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/httplisten/HttpLink.cpp
+END

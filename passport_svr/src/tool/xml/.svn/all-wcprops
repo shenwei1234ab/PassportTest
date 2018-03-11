@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tool/xml
+END
+tinyxmlerror.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tool/xml/tinyxmlerror.cpp
+END
+tinyxmlparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tool/xml/tinyxmlparser.cpp
+END
+tinyxml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tool/xml/tinyxml.cpp
+END
+tinyxml.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/tool/xml/tinyxml.h
+END

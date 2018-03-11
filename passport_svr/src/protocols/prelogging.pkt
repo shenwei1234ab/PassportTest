@@ -1,0 +1,74 @@
+packet<101>
+{
+	u32 data
+}req_version; 
+
+
+packet<102>
+{
+	u32 data
+}req_version_update_ok; 
+
+
+packet<103>
+{
+	
+}req_siginin
+
+packet<104>
+{
+	u64 low;
+   u64 high;
+}req_login
+
+
+packet<105>
+{
+	string data
+}req_login_account
+
+
+packet<106>
+{
+	string ppid;
+	string accessToken;
+}req_login_PPID
+
+
+
+
+
+packet<101>
+{
+	u8 data
+}res_version_ok;
+
+
+packet<102>
+{
+
+}res_version_refused;
+
+
+
+packet<103>
+{
+	 u32 version;
+    uint file_size;
+}res_version_update;
+
+
+packet<104>
+{
+	vector<u8> data
+}res_file_data;
+
+packet<105>
+{
+
+}res_login_failed;
+
+
+
+
+

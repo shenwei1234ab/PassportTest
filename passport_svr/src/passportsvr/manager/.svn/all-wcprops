@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager
+END
+RsaKeyManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/RsaKeyManager.h
+END
+OrderManger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/OrderManger.cpp
+END
+DirtyManager2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/DirtyManager2.cpp
+END
+OrderManger.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/OrderManger.h
+END
+StringFilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/StringFilter.cpp
+END
+DirtyManager2.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/DirtyManager2.h
+END
+SessionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/SessionManager.cpp
+END
+NicknameManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/NicknameManager.cpp
+END
+StringFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/StringFilter.h
+END
+SessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/SessionManager.h
+END
+NicknameManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/NicknameManager.h
+END
+DirtyManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/DirtyManager.cpp
+END
+PlayerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/PlayerManager.cpp
+END
+RsaKeyManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/RsaKeyManager.cpp
+END
+DirtyManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/DirtyManager.h
+END
+PlayerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Passport/!svn/ver/2/trunk/passport_svr/src/passportsvr/manager/PlayerManager.h
+END

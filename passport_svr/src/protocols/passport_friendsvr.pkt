@@ -1,0 +1,104 @@
+
+//------------第三方验证请求-----
+packet<305> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		//
+	string ppToken;		//
+} req_Verify;
+
+
+//------------GetVip-----
+packet<306> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_GetVip;
+
+//------------请求个人信息-----
+packet<307> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_GetProfile;
+//------------请求 Token-----
+packet<308> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_GetToken;
+
+//------------刷新 Token-----
+packet<309> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_RefreshToken;
+//-----------获取好友列表-----
+packet<310> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_GetFriendList;
+//-----------获取好友详细信息-----
+packet<311> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_GetFriendDetail;
+//-----------获取XX详细信息-----
+packet<312> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_GetStrangerDetail;
+//----------更新积分-----
+packet<313> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_UpdScore;
+//----------清空通知-----
+packet<314> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string sig;		//
+	string ppid;		
+	string ppToken;		
+} req_FeedNotify;
+
+//------------重置名称-----
+packet<315> {
+	u64 handle;
+	uint timestamp;		//
+	string appId;		//
+	string ppid;		
+	string nickname;		
+} req__PF_ResetNickname;

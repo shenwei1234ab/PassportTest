@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql
+END
+byte_order_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/byte_order_generic.h
+END
+sslopt-case.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/sslopt-case.h
+END
+decimal.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/decimal.h
+END
+my_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_alloc.h
+END
+mysqld_ername.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysqld_ername.h
+END
+mysql_embed.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql_embed.h
+END
+my_byteorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_byteorder.h
+END
+mysql.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql.h
+END
+my_xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_xml.h
+END
+my_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_global.h
+END
+sql_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/sql_common.h
+END
+my_compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_compiler.h
+END
+my_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_list.h
+END
+my_sys.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_sys.h
+END
+mysql_com_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql_com_server.h
+END
+my_pthread.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_pthread.h
+END
+sslopt-vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/sslopt-vars.h
+END
+sql_state.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/sql_state.h
+END
+byte_order_generic_x86.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/byte_order_generic_x86.h
+END
+errmsg.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/errmsg.h
+END
+m_ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/m_ctype.h
+END
+mysql_com.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql_com.h
+END
+my_getopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_getopt.h
+END
+typelib.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/typelib.h
+END
+mysql_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql_version.h
+END
+my_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_config.h
+END
+little_endian.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/little_endian.h
+END
+keycache.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/keycache.h
+END
+big_endian.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/big_endian.h
+END
+mysqld_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysqld_error.h
+END
+m_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/m_string.h
+END
+mysql_time.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/mysql_time.h
+END
+my_dir.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_dir.h
+END
+my_dbug.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/my_dbug.h
+END
+sslopt-longopts.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Passport/!svn/ver/2/trunk/passport_svr/dep/include/mysql/sslopt-longopts.h
+END

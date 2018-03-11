@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/Passport/!svn/ver/2/trunk/passport_svr
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Passport/!svn/ver/2/trunk/passport_svr/.project
+END
+make.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/Passport/!svn/ver/2/trunk/passport_svr/make.sh
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Passport/!svn/ver/2/trunk/passport_svr/.cproject
+END
+product.var
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Passport/!svn/ver/2/trunk/passport_svr/product.var
+END
+config.var
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/Passport/!svn/ver/2/trunk/passport_svr/config.var
+END
